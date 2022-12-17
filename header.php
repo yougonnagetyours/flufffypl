@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package pawsgang
+ * @package flufffypl
  */
 
 ?>
@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'pawsgang' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'flufffypl' ); ?></a>
 
 
 	<div class="announcement-bar pt-2 pb-2">
@@ -40,7 +40,7 @@
 
 						<li>
 							<i class="bi bi-envelope rounded-circle"></i>
-							<a href="mailto:hello@pawsgang.shop" class="text-decoration-none">hello@pawsgang.shop</a>
+							<a href="mailto:hello@flufffypl.shop" class="text-decoration-none">hello@flufffypl.shop</a>
 						</li>
 					</ul>
 
@@ -106,7 +106,7 @@
 				<div class="col-12 d-flex justify-content-center">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 						<i class="bi bi-list"></i>
-						<?php esc_html_e( 'Primary Menu', 'pawsgang' ); ?>
+						<?php esc_html_e( 'Primary Menu', 'flufffypl' ); ?>
 					</button>
 				</div>
 

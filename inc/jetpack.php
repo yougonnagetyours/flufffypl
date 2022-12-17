@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package pawsgang
+ * @package flufffypl
  */
 
 /**
@@ -14,13 +14,13 @@
  * See: https://jetpack.com/support/responsive-videos/
  * See: https://jetpack.com/support/content-options/
  */
-function pawsgang_jetpack_setup() {
+function flufffypl_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support(
 		'infinite-scroll',
 		array(
 			'container' => 'main',
-			'render'    => 'pawsgang_infinite_scroll_render',
+			'render'    => 'flufffypl_infinite_scroll_render',
 			'footer'    => 'page',
 		)
 	);
@@ -33,7 +33,7 @@ function pawsgang_jetpack_setup() {
 		'jetpack-content-options',
 		array(
 			'post-details' => array(
-				'stylesheet' => 'pawsgang-style',
+				'stylesheet' => 'flufffypl-style',
 				'date'       => '.posted-on',
 				'categories' => '.cat-links',
 				'tags'       => '.tags-links',
@@ -48,12 +48,12 @@ function pawsgang_jetpack_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'pawsgang_jetpack_setup' );
+add_action( 'after_setup_theme', 'flufffypl_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function pawsgang_infinite_scroll_render() {
+function flufffypl_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :

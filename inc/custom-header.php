@@ -8,39 +8,39 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package pawsgang
+ * @package flufffypl
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses pawsgang_header_style()
+ * @uses flufffypl_header_style()
  */
-function pawsgang_custom_header_setup() {
+function flufffypl_custom_header_setup() {
 	add_theme_support(
 		'custom-header',
 		apply_filters(
-			'pawsgang_custom_header_args',
+			'flufffypl_custom_header_args',
 			array(
 				'default-image'      => '',
 				'default-text-color' => '000000',
 				'width'              => 1000,
 				'height'             => 250,
 				'flex-height'        => true,
-				'wp-head-callback'   => 'pawsgang_header_style',
+				'wp-head-callback'   => 'flufffypl_header_style',
 			)
 		)
 	);
 }
-add_action( 'after_setup_theme', 'pawsgang_custom_header_setup' );
+add_action( 'after_setup_theme', 'flufffypl_custom_header_setup' );
 
-if ( ! function_exists( 'pawsgang_header_style' ) ) :
+if ( ! function_exists( 'flufffypl_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see pawsgang_custom_header_setup().
+	 * @see flufffypl_custom_header_setup().
 	 */
-	function pawsgang_header_style() {
+	function flufffypl_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
