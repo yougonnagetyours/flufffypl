@@ -1,8 +1,9 @@
 // Include custom veriables default overrides here
-$primary: rgb(127, 24, 127);
-$primary-opacity-8: rgba(127, 24, 127, 0.8);
+$primary: rgb(94, 183, 168);
+$primary-opacity-8: rgba(94, 183, 168, 0.8);
+$secondary: #B87072;
 $gray: #E6E6E6;
-$sale: rgba(167, 4, 4, 0.8);
+$sale: rgba(84, 184, 111, 0.8);
 $headings-font-family: 'Nunito', sans-serif;
 $headings-font-weight: 800;
 $font-family-base: 'Poppins', sans-serif;
@@ -10,6 +11,7 @@ $font-family-base: 'Poppins', sans-serif;
 $theme-colors: (
   "primary": $primary,
   "primary-opacity-8": $primary-opacity-8,
+  "secondary" : $secondary,
   "gray": $gray,
   "sale": $sale
 );
@@ -123,11 +125,9 @@ $utilities: (
 
 /************* FRONT PAGE *************/
 
-/************** SLIDER **************/
-.carousel {
-  .carousel-control-prev, .carousel-control-next {
-    width: 9%;
-  }
+/************** HERO SECTION **************/
+.hero {
+  background-color: $secondary; 
 }
 
 
