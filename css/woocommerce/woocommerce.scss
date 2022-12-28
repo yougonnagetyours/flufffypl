@@ -527,12 +527,12 @@ p.demo_store,
 		position: absolute;
 		text-align: center;
 		line-height: 3.236;
-		top: -0.5em;
-		left: -0.5em;
+		top: 0em;
+		left: -0.7em;
 		margin: 0;
 		border-radius: 100%;
-		background-color: $highlight;
-		color: $highlightext;
+		background-color: $sale;
+		color: #000000;
 		font-size: 0.857em;
 		z-index: 9;
 	}

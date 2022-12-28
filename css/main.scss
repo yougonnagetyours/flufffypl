@@ -178,11 +178,12 @@ $utilities: (
 
 }
 
-.popular-products, .special-offers {
+/************** WOOCOMMERCE STYLES **************/
 
   .add_to_cart_button {
     display: block!important;
     text-align: center;
+    font-weight: lighter!important;
   }
 
   .attachment-woocommerce_thumbnail {
@@ -190,4 +191,4 @@ $utilities: (
     overflow: hidden;
   }
 
-}
+

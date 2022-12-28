@@ -18,8 +18,14 @@ get_header();
 	<main id="primary" class="site-main">
 
 		<section class="hero container pb-5 pt-4">
-			<h1>Czym jest Flufffy.pl?</h1>
-			<div>To duże, ciepłe koce, które możesz, a nawet musisz nosić, aby poczuć się komfortowo i ciepło w chłodne, zimowe wieczory</div>
+			<div class="hero-text">
+				<h1>Czym jest Flufffy.pl?</h1>
+				<div>To duże, ciepłe koce, które możesz, a nawet musisz nosić, aby poczuć się komfortowo i ciepło w chłodne, zimowe wieczory
+				</div>
+			</div>
+			<div class="hero-pic">
+				
+			</div>
 		</section>
 
 

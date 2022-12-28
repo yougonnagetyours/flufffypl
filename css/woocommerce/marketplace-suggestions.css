@@ -65,17 +65,17 @@
  * WooCommerce CSS Variables
  */
 :root {
-  --woocommerce: rgb(127, 24, 127);
+  --woocommerce: rgb(94, 183, 168);
   --wc-green: #7ad03a;
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: rgb(127, 24, 127);
-  --wc-primary-text: #e5b1e5;
-  --wc-secondary: rgb(127, 24, 127);
+  --wc-primary: rgb(94, 183, 168);
+  --wc-primary-text: white;
+  --wc-secondary: rgb(94, 183, 168);
   --wc-secondary-text: #fff;
-  --wc-highlight: rgb(127, 24, 127);
-  --wc-highligh-text: #e5b1e5;
+  --wc-highlight: rgb(94, 183, 168);
+  --wc-highligh-text: white;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }

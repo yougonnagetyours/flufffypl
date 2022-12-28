@@ -9643,11 +9643,14 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
-.popular-products .add_to_cart_button, .special-offers .add_to_cart_button {
+/************** WOOCOMMERCE STYLES **************/
+.add_to_cart_button {
   display: block !important;
   text-align: center;
+  font-weight: lighter !important;
 }
-.popular-products .attachment-woocommerce_thumbnail, .special-offers .attachment-woocommerce_thumbnail {
+
+.attachment-woocommerce_thumbnail {
   border-radius: 20px;
   overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

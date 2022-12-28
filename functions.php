@@ -307,7 +307,7 @@ function wp_enqueue_woocommerce_style(){
 add_action( 'wp_enqueue_scripts', 'wp_enqueue_woocommerce_style' );
 
 /**
- * Add WooCommerce support
+ * Add WooCommerce supportmapsmaps
  */
 
  function mytheme_add_woocommerce_support() {
