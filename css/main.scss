@@ -126,8 +126,65 @@ $utilities: (
 /************* FRONT PAGE *************/
 
 /************** HERO SECTION **************/
-.hero {
-  background-color: $secondary; 
+.hero-wrapper {
+
+  .hero {
+    background-color: $secondary;
+    height: 550px; 
+    border-radius: 0;
+    position: relative;
+
+    .hero-text {
+      padding-left: 3rem;
+      padding-right: 3rem;
+
+      .hero-button {
+        background-color: #000000;
+        color:#F9F9F9;
+        border: none;
+        font-weight: lighter;
+        border-radius: 10px;
+      }
+    }
+    @include media-breakpoint-up(md) {
+      .hero-text {
+        padding-left: 8rem;
+      }
+    }
+
+    .hero-pic {
+      width: 200px;
+      position: absolute;
+      right: 12px;
+      bottom: 0;
+      img {
+        width: 100%;
+      }
+    }
+    @include media-breakpoint-up(sm) {
+      .hero-pic {
+        width: 250px;
+        right: 22px
+      }
+    }
+    @include media-breakpoint-up(md) {
+      .hero-pic {
+        right: 150px
+      }
+    }
+    @include media-breakpoint-up(lg) {
+      .hero-pic {
+        width: 277px;
+        right: 200px
+      }
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    .hero {
+      border-radius: 50px;
+    }
+  }
 }
 
 

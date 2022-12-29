@@ -9605,8 +9605,58 @@ textarea.form-control-lg {
 
 /************* FRONT PAGE *************/
 /************** HERO SECTION **************/
-.hero {
+.hero-wrapper .hero {
   background-color: #B87072;
+  height: 550px;
+  border-radius: 0;
+  position: relative;
+}
+.hero-wrapper .hero .hero-text {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.hero-wrapper .hero .hero-text .hero-button {
+  background-color: #000000;
+  color: #F9F9F9;
+  border: none;
+  font-weight: lighter;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .hero-wrapper .hero .hero-text {
+    padding-left: 8rem;
+  }
+}
+.hero-wrapper .hero .hero-pic {
+  width: 200px;
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+}
+.hero-wrapper .hero .hero-pic img {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .hero-wrapper .hero .hero-pic {
+    width: 250px;
+    right: 22px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-wrapper .hero .hero-pic {
+    right: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .hero-wrapper .hero .hero-pic {
+    width: 277px;
+    right: 200px;
+  }
+}
+@media (min-width: 576px) {
+  .hero-wrapper .hero {
+    border-radius: 50px;
+  }
 }
 
 /************** CATEGORIES **************/
